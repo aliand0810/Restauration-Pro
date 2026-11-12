@@ -1,0 +1,41 @@
+RESTAURATION PRO — copie de COVO Pro adaptée à la restauration
+================================================================
+
+INSTALLATION (GitHub Pages)
+1. Créez un dépôt PUBLIC nommé exactement :  Restauration-Pro   (compte aliand0810)
+2. Déposez-y tout le CONTENU du dossier « Restauration-Pro » de ce zip
+   (index.html, licence.js et les 12 dossiers — glissez-les dans « Add file > Upload files » depuis un ordinateur).
+3. Settings > Pages > Branch : main > Save.
+4. Ouvrez  https://aliand0810.github.io/Restauration-Pro/
+   Première connexion : code 1234 (Admin) — à changer ensuite dans Gestion > Utilisateurs.
+
+Le nom du dépôt compte : les applications s'appellent entre elles par cette adresse.
+
+LES 12 APPLICATIONS (un dossier chacune)
+  app         caisse principale (ex-COVO Pro) + panneau Restauration
+  cuisine     NOUVEAU — Cuisine Pro : écran cuisine, fiches techniques, HACCP
+  caisse, gestion, appro, finances, historique, clotures, fidelite, admin, projets, visites
+              les satellites de COVO Pro, inchangés dans leur fonctionnement
+
+CE QUI EST PROPRE À LA RESTAURATION
+  Bouton orange « Salle & cuisine » (en bas à gauche de la caisse), ou tuile « Cuisine Pro » de la boîte à outils.
+  - Salle : plan des tables, couverts, à emporter, livraison, mise en attente, transfert de table.
+  - Panier : note cuisine par ligne (cuisson, sans oignon, allergie…), bouton « Envoyer en cuisine ».
+  - Écran cuisine : bons par table, Nouveau > En préparation > Prêt > Servi, alerte de retard, impression du bon.
+  - Fiches techniques : ingrédients par plat, coût matière, ratio ; les ingrédients sortent du stock à chaque vente.
+  - Stock des plats : suivi / illimité (fait à la demande) / selon la fiche (portions réalisables).
+  - Allergènes : les 14 allergènes par plat, tableau imprimable.
+  - HACCP : relevés de températures, plan de nettoyage, contrôles à réception, registre mensuel imprimable.
+  - Réglages : salles et tables, postes (cuisine / bar), notes rapides, équipements froids.
+
+CARTE
+  Créez plats et ingrédients dans Gestion > Produits. Rangez les matières premières dans la catégorie « Ingrédients »
+  (elles n'apparaissent pas à la vente). Un plat créé sans stock est vendable tout de suite (illimité).
+
+À SAVOIR
+  - Données séparées de COVO Pro (clés « restopro_ ») : les deux logiciels cohabitent sans se mélanger.
+  - Écran cuisine : il se met à jour tout seul sur le MÊME appareil que la caisse (2e fenêtre ou 2e écran).
+    Sur une tablette séparée, il ne reçoit pas les commandes en direct : utilisez les bons imprimés.
+  - Licence : désactivée. Le fichier licence.js (vide) est l'interrupteur : y coller le contenu de licence_check.js l'active.
+  - Mot de passe maître : aucun n'est écrit dans le code ; il se définit dans Restauration > Réglages.
+  - Portail fidélité client et site catalogue : non inclus (ils demandent leur propre projet Firebase).
