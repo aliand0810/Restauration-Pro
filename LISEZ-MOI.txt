@@ -36,6 +36,6 @@ CARTE
   - Données séparées de COVO Pro (clés « restopro_ ») : les deux logiciels cohabitent sans se mélanger.
   - Écran cuisine : il se met à jour tout seul sur le MÊME appareil que la caisse (2e fenêtre ou 2e écran).
     Sur une tablette séparée, il ne reçoit pas les commandes en direct : utilisez les bons imprimés.
-  - Licence : désactivée. Le fichier licence.js (vide) est l'interrupteur : y coller le contenu de licence_check.js l'active.
+  - Licence : ACTIVÉE (produit « Restauration Pro » dans Licence Pro). Le fichier licence.js est l'interrupteur : le vider désactive la licence.
   - Mot de passe maître : aucun n'est écrit dans le code ; il se définit dans Restauration > Réglages.
   - Portail fidélité client et site catalogue : non inclus (ils demandent leur propre projet Firebase).
